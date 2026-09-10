@@ -1,0 +1,100 @@
+id: xX
+name: Subject Experience
+version: 0.1.0
+status: proposed
+
+purpose: >-
+  Define the common ontology of experience produced and updated through
+  interaction between a subject and its world.
+
+definition: >-
+  xX is the process and evolving state through which a subject experiences,
+  interprets, acts upon, and is changed by interaction with the world,
+  other subjects, environments, tools, information, and work.
+
+principle:
+  subject_relative: true
+  world_situated: true
+  experience_is_dynamic: true
+  human_only: false
+
+subjects:
+  - user
+  - developer
+  - agent
+  - researcher
+  - organization
+  - human
+  - machine
+
+objects:
+  subject:
+    definition: Entity that participates in experience.
+  world:
+    definition: Context or environment in which interaction occurs.
+  observation:
+    definition: Input or distinction available to the subject through interaction.
+  experience:
+    definition: Subject-relative state/process formed through interaction.
+  cognition:
+    definition: Recognition, interpretation, modeling, reasoning, or sense-making.
+  decision:
+    definition: Selection of a possible response or course of action.
+  action:
+    definition: Intervention performed by the subject.
+  outcome:
+    definition: Change produced by an action or interaction.
+  feedback:
+    definition: Information from an outcome that can update future cognition or action.
+  experience_update:
+    definition: Change in the subject's subsequent experiential state or disposition.
+
+relations:
+  - subject_experiences_world
+  - subject_observes
+  - observation_contributes_to_experience
+  - experience_informs_cognition
+  - cognition_informs_decision
+  - decision_selects_action
+  - action_produces_outcome
+  - outcome_generates_feedback
+  - feedback_updates_experience
+  - experience_updates_future_action
+
+cycle:
+  - world
+  - observation
+  - experience
+  - cognition
+  - decision
+  - action
+  - outcome
+  - feedback
+  - experience_update
+  - world
+
+specializations:
+  UX:
+    subject: user
+    name: User Experience
+  DX:
+    subject: developer
+    name: Developer Experience
+  AX:
+    subject: agent
+    name: Agent Experience
+  RX:
+    subject: researcher
+    name: Research Experience
+
+invariants:
+  - every_experience_has_a_subject
+  - experience_is_situated_in_context
+  - observation_is_not_experience
+  - cognition_is_not_experience
+  - action_is_not_experience
+  - outcome_is_not_experience
+  - experience_can_change_future_behavior
+  - xX_does_not_require_a_human_subject
+
+canonical_expression: "Subject × World Interaction → xX → Updated Subject State → Future Interaction"
