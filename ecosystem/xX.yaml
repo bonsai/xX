@@ -1,0 +1,105 @@
+id: xX
+type: experience_ecosystem
+name: Subject Experience Ecosystem
+version: 1.0.0
+
+purpose: >-
+  Define a common ecosystem model for subject experience and provide a
+  canonical basis for UX, DX, AX, and RX as specializations of xX.
+
+foundation:
+  xX:
+    definition: >-
+      The process and state through which a subject experiences, interprets,
+      acts upon, and is changed by interaction with the world, other subjects,
+      environments, tools, information, and work.
+    subject_neutral: true
+
+subjects:
+  user:
+    specialization: UX
+  developer:
+    specialization: DX
+  agent:
+    specialization: AX
+  researcher:
+    specialization: RX
+
+specializations:
+  UX:
+    subject: user
+    name: User Experience
+  DX:
+    subject: developer
+    name: Developer Experience
+  AX:
+    subject: agent
+    name: Agent Experience
+  RX:
+    subject: researcher
+    name: Research Experience
+
+layers:
+  - subject
+  - world
+  - interaction
+  - experience
+  - cognition
+  - decision
+  - action
+  - outcome
+  - feedback
+
+canonical_cycle:
+  - world
+  - observation
+  - experience
+  - cognition
+  - decision
+  - action
+  - outcome
+  - feedback
+  - experience_update
+
+relations:
+  subject_experiences_world: subject -> world
+  subject_observes: subject -> observation
+  observation_updates_experience: observation -> experience
+  experience_informs_cognition: experience -> cognition
+  cognition_produces_decision: cognition -> decision
+  decision_selects_action: decision -> action
+  action_produces_outcome: action -> outcome
+  outcome_generates_feedback: outcome -> feedback
+  feedback_updates_experience: feedback -> experience
+  experience_changes_subject_state: experience -> subject
+
+ecosystem_boundaries:
+  xX: owns common subject-experience ontology
+  UX: specializes xX for users
+  DX: specializes xX for developers
+  AX: specializes xX for agents
+  RX: specializes xX for researchers
+  domain: owns domain-specific problems and outcomes
+  aw: owns generic work execution
+  world: owns world and view ontology
+  intelligence: owns intelligence capability
+  think: owns reusable thinking methods
+
+principles:
+  - subject_first
+  - experience_is_situated
+  - experience_is_not_observation
+  - experience_is_not_action
+  - experience_is_not_outcome
+  - feedback_updates_future_experience
+  - subject_may_be_human_or_machine
+  - specializations_must_remain_compatible_with_xX
+
+invariants:
+  - every_experience_has_a_subject
+  - every_experience_has_context
+  - every_experience_can_affect_future_subject_state
+  - UX_is_a_specialization_of_xX
+  - DX_is_a_specialization_of_xX
+  - AX_is_a_specialization_of_xX
+  - RX_is_a_specialization_of_xX
