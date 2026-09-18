@@ -87,6 +87,36 @@ specializations:
     subject: researcher
     name: Research Experience
 
+x_series:
+  AX: Agent X
+  BX: Business X
+  DX: Developer X
+  EX: Editor X
+  IX: Idol X
+  MX: Marketing X
+  PX: Philosopher X
+  RX: Research X
+  SX: Scientist X
+  TX: Type eXperience
+  UX: User X
+  WX: Writing X
+  xX: Subject Experience
+
+open_slots:
+  - CX
+  - FX
+  - GX
+  - HX
+  - JX
+  - KX
+  - LX
+  - NX
+  - OX
+  - QX
+  - VX
+  - YX
+  - ZX
+
 invariants:
   - every_experience_has_a_subject
   - experience_is_situated_in_context

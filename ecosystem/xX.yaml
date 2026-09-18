@@ -39,6 +39,36 @@ specializations:
     subject: researcher
     name: Research Experience
 
+x_series:
+  AX: {name: Agent X, subject: agent}
+  BX: {name: Business X, subject: businessperson}
+  DX: {name: Developer X, subject: developer}
+  EX: {name: Editor X, subject: editor}
+  IX: {name: Idol X, subject: idol_producer}
+  MX: {name: Marketing X, subject: marketer}
+  PX: {name: Philosopher X, subject: philosopher}
+  RX: {name: Research X, subject: researcher}
+  SX: {name: Scientist X, subject: scientist}
+  TX: {name: Type eXperience, subject: type_scholar}
+  UX: {name: User X, subject: user}
+  WX: {name: Writing X, subject: writer}
+  xX: {name: Subject Experience, subject: subject}
+
+open_slots:
+  - CX
+  - FX
+  - GX
+  - HX
+  - JX
+  - KX
+  - LX
+  - NX
+  - OX
+  - QX
+  - VX
+  - YX
+  - ZX
+
 layers:
   - subject
   - world
