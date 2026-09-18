@@ -63,15 +63,15 @@ with faint suggestions in *italics*.
 | I | **IX** | Idol X | Idol Transformation / アイドルとファン | Idol Producer | existing |
 | J | **JX** | *（空欄）* | *Justice X / Journalism X …* | — | **open** |
 | K | **KX** | *（空欄）* | *Knowledge X …* | — | **open** |
-| L | **LX** | *（空欄）* | *Learning X / Language X …* | — | **open** |
+| L | **LX** | Language X | 言語の型 / 英単語オントロジ | Learner | new |
 | M | **MX** | Marketing X | Marketing Transformation / 市場との関係 | Marketer | existing |
 | N | **NX** | *（空欄）* | *Nature X / Network X …* | — | **open** |
-| O | **OX** | *（空欄）* | *Organization X / Ontology X …* | — | **open** |
+| O | **OX** | Type eXperience | 型のライフサイクル（Type OS） | 型学者 / Type Scholar | existing |
 | P | **PX** | Philosopher X | 哲学者の型（9人） | Philosopher | new |
 | Q | **QX** | *（空欄）* | *Question X / Quality X …* | — | **open** |
 | R | **RX** | Research X | Research Experience / 研究（既知を集める） | Researcher | existing |
 | S | **SX** | Scientist X | 科学者の型 / 実験（未知を試す） | Scientist | new |
-| T | **TX** | Type eXperience | 型のライフサイクル（Type OS） | **型学者 / Type Scholar** | existing |
+| T | **TX** | Traveler X | 越境・撹乱・ポリネーション | Traveler | existing |
 | U | **UX** | User X | User Experience / 利用者 | User | added |
 | V | **VX** | *（空欄）* | *Value X / Vision X …* | — | **open** |
 | W | **WX** | Writing X | 文章を書く（ライティング） | Writer | redefined |
@@ -82,7 +82,7 @@ with faint suggestions in *italics*.
 Notes:
 
 - **xX** is the foundation; the other layers are specializations or transformations of it.
-- **TX** is the type system: its actor is the **型学者 / Type Scholar**.
+- **OX** is the type system (Type eXperience / Type OS): its actor is the **型学者 / Type Scholar**.
 - Blank letters are **open slots** — reserved, not yet defined.
 
 ## Core model

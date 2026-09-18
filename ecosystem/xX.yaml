@@ -45,11 +45,13 @@ x_series:
   DX: {name: Developer X, subject: developer}
   EX: {name: Editor X, subject: editor}
   IX: {name: Idol X, subject: idol_producer}
+  LX: {name: Language X, subject: learner}
   MX: {name: Marketing X, subject: marketer}
+  OX: {name: Type eXperience, subject: type_scholar}
   PX: {name: Philosopher X, subject: philosopher}
   RX: {name: Research X, subject: researcher}
   SX: {name: Scientist X, subject: scientist}
-  TX: {name: Type eXperience, subject: type_scholar}
+  TX: {name: Traveler X, subject: traveler}
   UX: {name: User X, subject: user}
   WX: {name: Writing X, subject: writer}
   xX: {name: Subject Experience, subject: subject}
@@ -61,9 +63,7 @@ open_slots:
   - HX
   - JX
   - KX
-  - LX
   - NX
-  - OX
   - QX
   - VX
   - YX

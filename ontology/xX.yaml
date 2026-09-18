@@ -93,11 +93,13 @@ x_series:
   DX: Developer X
   EX: Editor X
   IX: Idol X
+  LX: Language X
   MX: Marketing X
+  OX: Type eXperience
   PX: Philosopher X
   RX: Research X
   SX: Scientist X
-  TX: Type eXperience
+  TX: Traveler X
   UX: User X
   WX: Writing X
   xX: Subject Experience
@@ -109,9 +111,7 @@ open_slots:
   - HX
   - JX
   - KX
-  - LX
   - NX
-  - OX
   - QX
   - VX
   - YX
